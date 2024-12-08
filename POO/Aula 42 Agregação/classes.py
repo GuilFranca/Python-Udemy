@@ -13,6 +13,7 @@ class CarrinhoDeCompras:
         total = 0
         for produto in self.produtos:
             total += produto.valor
+        return total
 
 
 class Produto:
